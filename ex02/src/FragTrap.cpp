@@ -3,9 +3,9 @@
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
 	std::cout << "FragTrap constructor called" << std::endl;
-	setHitPoints(100);
-	setEnergyPoints(100);
-	setAttackDamage(30);
+	sethitPoints(100);
+	setenergyPoints(100);
+	setattackDamage(30);
 }
 
 FragTrap::FragTrap(const FragTrap &copy) : ClapTrap(copy)
@@ -20,5 +20,5 @@ FragTrap::~FragTrap()
 
 void FragTrap::highFivesGuys()
 {
-	std::cout << "FragTrap " << getName() << " high fives guys" << std::endl;
+	std::cout << "FragTrap " << getname() << " high fives guys" << std::endl;
 }
