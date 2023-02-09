@@ -1,5 +1,5 @@
 # Compiler settings.
-CC = g++
+CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 LDFLAGS =
 
@@ -11,8 +11,8 @@ SRCDIR = src
 OBJDIR = obj
 LIBDIR =
 RLINEDIR = /usr/include/readline
-SRC := $(shell find $(SRCDIR) -name '*.cpp')
-# SRC := src/Zombie.cpp src/newZombie.cpp src/randomChump.cpp src/main.cpp
+# SRC := $(shell find $(SRCDIR) -name '*.cpp')
+SRC := src/ClapTrap.cpp src/main.cpp src/ScavTrap.cpp
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
 
 # $(info VAR="$(SRC)")
