@@ -18,4 +18,9 @@ public:
 	void sethitPoints(unsigned int hitPoints);
 	void setenergyPoints(unsigned int energyPoints);
 	void setattackDamage(unsigned int attackDamage);
+	void setname(std::string name);
+	unsigned int gethitPoints();
+	unsigned int getenergyPoints();
+	unsigned int getattackDamage();
+	std::string getname();
 };

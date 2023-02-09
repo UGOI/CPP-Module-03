@@ -93,3 +93,28 @@ void ClapTrap::setattackDamage(unsigned int attackDamage)
 {
 	this->attackDamage = attackDamage;
 }
+
+void ClapTrap::setname(std::string name)
+{
+	this->name = name;
+}
+
+unsigned int ClapTrap::gethitPoints()
+{
+	return (this->hitPoints);
+}
+
+unsigned int ClapTrap::getenergyPoints()
+{
+	return (this->energyPoints);
+}
+
+unsigned int ClapTrap::getattackDamage()
+{
+	return (this->attackDamage);
+}
+
+std::string ClapTrap::getname()
+{
+	return (this->name);
+}
