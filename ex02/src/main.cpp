@@ -9,6 +9,7 @@ int main()
 	fragTrap.attack("target");
 	fragTrap.takeDamage(10);
 	fragTrap.beRepaired(10);
+	fragTrap.takeDamage(100);
 	fragTrap.highFivesGuys();
 	return (0);
 }
